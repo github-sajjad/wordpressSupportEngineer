@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'SweetRomance';
+    src: url(../css/font/Sweet\ Romance.otf);
+}
+
+.testFont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    background: linear-gradient(#e66465, #9198e5);
+
+    font-family: SweetRomance, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.testFont h1 {
+    color: azure;
+}
