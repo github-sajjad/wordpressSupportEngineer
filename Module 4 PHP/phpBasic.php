@@ -78,6 +78,24 @@ $array5=[
     1,2,3,4,5,6,7,8,9,10
     ];
 foreach($array5 as $value){
-    echo $value. ' x 10 = '.$value*10;
-    echo('</br>');
+    //echo $value. ' x 10 = '.$value*10;
+    //echo('</br>');
 }
+
+//part 14
+function sum($num1, $num2){
+    return $num1+$num2;
+}
+//echo sum(10,30);
+
+//part 15
+$array6=[
+    1,2,3,4,5,6,7,8,9,10,3,4,5
+    ];
+$filtered_array = array_unique($array6);
+print_r($filtered_array);
+
+$flipped = array_flip($array6);
+print_r($flipped);
+
+echo end($array6);
