@@ -45,5 +45,39 @@ $array3=[
     ]
 ];
 echo $array3['mobile_number']['grameenphone']['gp1'];
+echo('</br>');
 
 //part 10
+$array4=[
+    1,2,3,4,5,6,7,8,9,10
+    ];
+$i=1;
+while($i<=10){
+    //echo $i.' x 13= '.$i*13;
+    //echo '</br>';
+    $i++;
+}
+
+//part 11
+$i=1;
+do{
+    //echo $i.' x 13 = '.$i*13;
+    //echo('</br>');
+    $i++;
+}
+while($i<=10);
+
+//part 12
+for($i=1; $i<=10; $i++){
+    //echo $i. ' x 13 = '. $i*13;
+    //echo('</br>');
+}
+
+//part 13
+$array5=[
+    1,2,3,4,5,6,7,8,9,10
+    ];
+foreach($array5 as $value){
+    echo $value. ' x 10 = '.$value*10;
+    echo('</br>');
+}
